@@ -56,7 +56,7 @@ main {
 }
 
 .card {
-  width: min(90%, 25rem);
+  width: min(90%, 28rem);
   margin: 1rem;
   background-color: white;
   border-radius: 1.25rem;
@@ -64,13 +64,13 @@ main {
 }
 
 .cardBody {
-  padding-block: 2rem;
+  padding-block: 2.66rem;
   padding-inline: 1.5rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 .cardText {
@@ -78,7 +78,7 @@ main {
 }
 
 .cardText h1 {
-  font-size: 1.33rem;
+  font-size: 1.4rem;
   font-weight: 900;
   color: var(--clr-neutral-dark);
   margin-block-end: 1rem;
@@ -97,7 +97,7 @@ main {
 
   background-color: var(--clr-neutral-very-pale);
   border-radius: 0.75rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .cardPlan h2 {
@@ -132,7 +132,7 @@ main {
   text-align: center;
   text-decoration: none;
   border-radius: 0.75em;
-  padding-block: 0.8em;
+  padding-block: 0.875em;
 }
 
 .btn:focus-visible {
@@ -153,7 +153,7 @@ main {
 }
 
 .cardOrder a:first-child {
-  margin-block-end: 1.5rem;
+  margin-block-end: 1.75rem;
 }
 
 a.cancelOrder {
@@ -188,19 +188,19 @@ a.cancelOrder:focus {
   }
 
   .cardBody {
-    padding-inline: 2.75rem;
+    padding-inline: 3rem;
     margin-inline: auto;
   }
 
   .cardText h1 {
-    font-size: 1.66rem;
+    font-size: 1.75rem;
   }
 
   .btn--payment {
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
   }
 
   a.cancelOrder {
-    font-size: 0.85rem;
+    font-size: 0.9375rem;
   }
 }
