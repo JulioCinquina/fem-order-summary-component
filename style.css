@@ -93,7 +93,7 @@ main {
   gap: 1.25rem;
 
   background-color: var(--clr-neutral-very-pale);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   padding: 1rem;
 }
 
@@ -122,8 +122,8 @@ main {
 .btn {
   text-align: center;
   text-decoration: none;
-  border-radius: 0.5em;
-  padding-block: 0.75em;
+  border-radius: 0.75em;
+  padding-block: 0.8em;
   box-shadow: 0 0.5rem 10px 0.5rem var(--clr-primary-pale);
 }
 
