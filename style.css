@@ -60,6 +60,26 @@ main {
   overflow: hidden;
 }
 
+.cardPlan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+
+  background-color: var(--clr-neutral-very-pale);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.cardPlan h2 {
+  font-size: 1rem;
+}
+
+.cardPlan a {
+  margin-inline-start: auto;
+  font-size: 0.8rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
