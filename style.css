@@ -4,8 +4,9 @@
   /* Colors */
   --clr-primary-pale: hsl(225, 100%, 94%);
   --clr-primary-bright: hsl(245, 75%, 52%);
+  --clr-primary-bright-hover: hsl(245, 80%, 68%);
 
-  --clr-neutral-very-pale: hsl(225, 100%, 98%);
+  --clr-neutral-very-pale: hsl(276, 100%, 98%);
   --clr-neutral-desaturated: hsl(221, 23%, 48%);
   --clr-neutral-dark: hsl(223, 47%, 23%);
 }
@@ -118,7 +119,7 @@ main {
 
 .cardPlan a:hover,
 .cardPlan a:focus {
-  color: var(--clr-neutral-desaturated);
+  color: var(--clr-primary-bright-hover);
   text-decoration: none;
 }
 
@@ -148,7 +149,7 @@ main {
 
 .btn--payment:hover,
 .btn--payment:focus {
-  background-color: var(--clr-neutral-desaturated);
+  background-color: var(--clr-primary-bright-hover);
 }
 
 .cardOrder a:first-child {
