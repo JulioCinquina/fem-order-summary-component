@@ -5,6 +5,14 @@ font-weights: 500, 700, 900
 
 :root {
   box-sizing: border-box;
+
+  /* Colors */
+  --clr-primary-pale: hsl(225, 100%, 94%);
+  --clr-primary-bright: hsl(245, 75%, 52%);
+
+  --clr-neutral-very-pale: hsl(225, 100%, 98%);
+  --clr-neutral-desaturated: hsl(224, 23%, 55%);
+  --clr-neutral-dark: hsl(223, 47%, 23%);
 }
 
 *,
