@@ -129,7 +129,7 @@ main {
   text-decoration: none;
   border-radius: 0.75em;
   padding-block: 0.8em;
-  box-shadow: 0 0.5rem 10px 0.5rem var(--clr-primary-pale);
+  box-shadow: 0 0.75rem 10px 0.5rem var(--clr-primary-pale);
 }
 
 .btn--payment {
