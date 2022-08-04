@@ -102,6 +102,30 @@ main {
   color: var(--clr-primary-bright);
 }
 
+.cardOrder a {
+  display: block;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.5em;
+  padding-block: 0.75em;
+}
+
+.btn--payment {
+  background-color: var(--clr-primary-bright);
+  font-weight: 700;
+  color: white;
+}
+
+a.cancelOrder {
+  font-weight: 700;
+  color: var(--clr-neutral-desaturated);
+  text-decoration: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
