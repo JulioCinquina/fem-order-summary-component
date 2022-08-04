@@ -27,6 +27,7 @@ body {
   margin: 0;
 
   font-family: "Red Hat Display", sans-serif;
+  background-color: var(--clr-primary-pale);
 
   display: flex;
   flex-direction: column;
@@ -45,6 +46,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  background-color: white;
 }
 
 .attribution {
