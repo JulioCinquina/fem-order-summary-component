@@ -156,3 +156,14 @@ a.cancelOrder {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 45rem) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  .cardBody {
+    padding-inline: 2.75rem;
+    margin-inline: auto;
+  }
+}
