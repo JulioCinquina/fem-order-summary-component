@@ -124,6 +124,7 @@ main {
   text-decoration: none;
   border-radius: 0.5em;
   padding-block: 0.75em;
+  box-shadow: 0 0.5rem 10px 0.5rem var(--clr-primary-pale);
 }
 
 .btn--payment {
