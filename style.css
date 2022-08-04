@@ -48,6 +48,10 @@ main {
   align-items: center;
 }
 
+.card * {
+  margin: 0;
+}
+
 .card {
   width: min(90%, 25rem);
   margin: 1rem;
