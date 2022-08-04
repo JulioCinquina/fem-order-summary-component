@@ -87,11 +87,19 @@ main {
 
 .cardPlan h2 {
   font-size: 1rem;
+  font-weight: 900;
+  color: var(--clr-neutral-dark);
+}
+
+.cardPlan p {
+  color: var(--clr-neutral-desaturated);
 }
 
 .cardPlan a {
   margin-inline-start: auto;
   font-size: 0.8rem;
+  font-weight: 900;
+  color: var(--clr-primary-bright);
 }
 
 .attribution {
