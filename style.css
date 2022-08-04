@@ -187,4 +187,16 @@ a.cancelOrder:focus {
     padding-inline: 2.75rem;
     margin-inline: auto;
   }
+
+  .cardText h1 {
+    font-size: 1.66rem;
+  }
+
+  .btn--payment {
+    font-size: 0.85rem;
+  }
+
+  a.cancelOrder {
+    font-size: 0.85rem;
+  }
 }
