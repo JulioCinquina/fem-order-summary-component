@@ -60,6 +60,20 @@ main {
   overflow: hidden;
 }
 
+.cardText {
+  text-align: center;
+}
+
+.cardText h1 {
+  font-size: 1.33rem;
+  font-weight: 900;
+  color: var(--clr-neutral-dark);
+}
+
+.cardText p {
+  color: var(--clr-neutral-desaturated);
+}
+
 .cardPlan {
   display: flex;
   flex-direction: row;
