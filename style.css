@@ -119,6 +119,12 @@ main {
   color: var(--clr-primary-bright);
 }
 
+.cardPlan a:hover,
+.cardPlan a:focus {
+  color: var(--clr-neutral-desaturated);
+  text-decoration: none;
+}
+
 .cardOrder a {
   display: block;
   text-align: center;
@@ -138,6 +144,16 @@ main {
   color: white;
 }
 
+.btn--payment:hover,
+.btn--payment:focus {
+  background-color: var(--clr-neutral-desaturated);
+}
+
+.btn--payment:focus-visible {
+  outline: 2px solid black;
+  outline-offset: 3px;
+}
+
 .cardOrder a:first-child {
   margin-block-end: 1.5rem;
 }
@@ -146,6 +162,11 @@ a.cancelOrder {
   font-weight: 700;
   color: var(--clr-neutral-desaturated);
   text-decoration: none;
+}
+
+a.cancelOrder:hover,
+a.cancelOrder:focus {
+  color: var(--clr-neutral-dark);
 }
 
 .attribution {
