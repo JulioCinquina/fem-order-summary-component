@@ -1,3 +1,8 @@
+/* 
+font-family: "Red Hat Display", sans-serif; 
+font-weights: 500, 700, 900
+*/
+
 :root {
   box-sizing: border-box;
 }
@@ -12,6 +17,8 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   margin: 0;
+
+  font-family: "Red Hat Display", sans-serif;
 
   display: flex;
   flex-direction: column;
