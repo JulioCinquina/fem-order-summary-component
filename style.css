@@ -60,6 +60,16 @@ main {
   overflow: hidden;
 }
 
+.cardBody {
+  padding-block: 2rem;
+  padding-inline: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .cardText {
   text-align: center;
 }
@@ -68,10 +78,12 @@ main {
   font-size: 1.33rem;
   font-weight: 900;
   color: var(--clr-neutral-dark);
+  margin-block-end: 1rem;
 }
 
 .cardText p {
   color: var(--clr-neutral-desaturated);
+  padding-inline: 0.5rem;
 }
 
 .cardPlan {
@@ -118,6 +130,10 @@ main {
   background-color: var(--clr-primary-bright);
   font-weight: 700;
   color: white;
+}
+
+.cardOrder a:first-child {
+  margin-block-end: 1.25rem;
 }
 
 a.cancelOrder {
