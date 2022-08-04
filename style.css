@@ -170,6 +170,8 @@ a.cancelOrder:focus {
 }
 
 .attribution {
+  padding-block-start: 1rem;
+  padding-block-end: 0.25rem;
   font-size: 11px;
   text-align: center;
 }
