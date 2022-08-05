@@ -144,7 +144,7 @@ main {
   background-color: var(--clr-primary-bright);
   font-weight: 700;
   color: white;
-  box-shadow: 0 0.75rem 10px 0.5rem var(--clr-primary-pale);
+  box-shadow: 0 1rem 20px 0rem var(--clr-primary-pale);
 }
 
 .btn--payment:hover,
